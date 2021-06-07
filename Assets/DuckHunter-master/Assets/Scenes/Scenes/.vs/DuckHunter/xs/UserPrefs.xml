@@ -1,12 +1,5 @@
 ﻿<Properties StartupConfiguration="{E8D00C65-D96A-9AD6-81C1-5DCA0FE63FBB}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyMovement.cs">
-    <Files>
-      <File FileName="Assets/DuckHunter-master/Assets/Scripts/PlayerRotation.cs" Line="1" Column="1" />
-      <File FileName="Assets/EnemyPooling.cs" Line="62" Column="67" />
-      <File FileName="Assets/GameController.cs" Line="24" Column="33" />
-      <File FileName="Assets/Scripts/EnemyMovement.cs" Line="1" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e6288668-09b9-42b2-a1ea-eef3e8b1c607" />
