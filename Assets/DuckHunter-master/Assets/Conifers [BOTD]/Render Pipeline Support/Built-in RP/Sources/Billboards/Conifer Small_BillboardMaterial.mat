@@ -41,5 +41,5 @@ Material:
     - _ViewDependency: 0.8
     - _WindStrength: 0.16
     m_Colors:
-    - _HueVariation: {r: 0, g: 0.9, b: 0.8255172, a: 0.1}
-    - _SpecColor: {r: 0.47548577, g: 0.6037736, b: 0.43574226, a: 1}
+    - _HueVariation: {r: 0, g: 0, b: 0, a: 0.1}
+    - _SpecColor: {r: 0, g: 0, b: 0, a: 0.49019608}

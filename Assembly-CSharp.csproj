@@ -66,19 +66,21 @@
   <ItemGroup>
     <Compile Include="Assets\DuckHunter-master\Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Scripts\CTI_CustomWind.cs" />
     <Compile Include="Assets\DuckHunter-master\Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Scripts\CTI_Utils.cs" />
-    <Compile Include="Assets\DuckHunter-master\Assets\Scripts\PlayerRotation.cs" />
     <Compile Include="Assets\Scripts\EnemyMovement.cs" />
     <Compile Include="Assets\Scripts\EnemyPooling.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\Scripts\GunHandler.cs" />
+    <Compile Include="Assets\Scripts\PlayerRotation.cs" />
     <Compile Include="Assets\Scripts\Pool.cs" />
     <None Include="Assets\DuckHunter-master\Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Bark_Array_301.shader" />
-    <None Include="Assets\DuckHunter-master\Assets\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
+    <None Include="Assets\DuckHunter-master\Assets\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
     <None Include="Assets\DuckHunter-master\Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Billboard_301.shader" />
     <None Include="Assets\DuckHunter-master\Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Resources\CTI_Camera-DepthNormalTexture_301.shader" />
     <None Include="Assets\DuckHunter-master\Assets\Conifers [BOTD]\Conifers [BOTD] URP Readme.txt" />
     <None Include="Assets\DuckHunter-master\Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Resources\CTI_Internal-DeferredShading.shader" />
     <None Include="Assets\DuckHunter-master\Assets\Conifers [BOTD]\Getting started.txt" />
     <None Include="Assets\DuckHunter-master\Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\Includes\CTI_BillboardVertex_301.cginc" />
+    <None Include="Assets\EgyptMonsters\README.txt" />
     <None Include="Assets\DuckHunter-master\Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\Includes\CTI_TranslucentLighting_301.cginc" />
     <None Include="Assets\DuckHunter-master\Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Bark_301.shader" />
     <None Include="Assets\DuckHunter-master\Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Resources\CTI_Internal-DeferredReflections.shader" />
