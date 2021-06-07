@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{E8D00C65-D96A-9AD6-81C1-5DCA0FE63FBB}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/DuckHuntGame-master/Assets/MenuController.cs">
+    <Files>
+      <File FileName="Assets/Player.cs" Line="36" Column="81" />
+      <File FileName="Assets/DuckHuntGame-master/Assets/MenuController.cs" Line="8" Column="35" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a86f99b0-26d6-402c-93c8-a08712d5c075" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
