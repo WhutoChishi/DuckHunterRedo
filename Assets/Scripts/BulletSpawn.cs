@@ -13,9 +13,9 @@ public class BulletSpawn : MonoBehaviour
 
     public float damage = 100f;
 
-    public float range = 100f;
+    public float range = 100f; //ray range
 
-    public Camera fpsCam;
+    public Camera fpsCam; //camera reference
 
     public ParticleSystem muzzleFlash;
 
@@ -45,21 +45,21 @@ public class BulletSpawn : MonoBehaviour
 
     void Shoot()
     {
-        muzzleFlash.Play();
+        muzzleFlash.Play(); //particle effect of shoot
 
-        RaycastHit hit;
+        RaycastHit hit; //ray variable information storing
 
-        if(Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
+        if(Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range)) // shoot raycast starting from camera position to forward direction of cam
         {
 
-            EnemyHealth enemy = hit.transform.GetComponent<EnemyHealth>();
+            EnemyHealth enemy = hit.transform.GetComponent<EnemyHealth>(); //enemy health reference of the object raycast is hitting
 
-            if (enemy != null)
+            if (enemy != null) //if reference is not null
             {
-                enemy.TakeDamage(damage);
+                enemy.TakeDamage(damage); //take damage
             }
 
-            Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
+            Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal)); //particle effect of hit
         }
 
     }
