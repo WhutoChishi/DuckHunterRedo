@@ -66,12 +66,23 @@
   <ItemGroup>
     <Compile Include="Assets\DuckHunter-master\Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Scripts\CTI_CustomWind.cs" />
     <Compile Include="Assets\DuckHunter-master\Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Scripts\CTI_Utils.cs" />
+    <Compile Include="Assets\DuckHunter-master\DuckHuntGame-master-2\Assets\Assets\Player.cs" />
+    <Compile Include="Assets\Scripts\BulletSpawn.cs" />
+    <Compile Include="Assets\Scripts\Controller.cs" />
+    <Compile Include="Assets\Scripts\EndScene.cs" />
+    <Compile Include="Assets\Scripts\EnemyHealth.cs" />
     <Compile Include="Assets\Scripts\EnemyMovement.cs" />
     <Compile Include="Assets\Scripts\EnemyPooling.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\Scripts\GameOverScene.cs" />
     <Compile Include="Assets\Scripts\GunHandler.cs" />
+    <Compile Include="Assets\Scripts\MenuController.cs" />
     <Compile Include="Assets\Scripts\PlayerRotation.cs" />
-    <Compile Include="Assets\Scripts\Pool.cs" />
+    <Compile Include="Assets\Scripts\ScoreManager.cs" />
+    <Compile Include="Assets\Scripts\StartScene.cs" />
+    <Compile Include="Assets\Scripts\TargetMover.cs" />
+    <Compile Include="Assets\Scripts\TimedObjectDestructor.cs" />
+    <Compile Include="Assets\Scripts\Timer.cs" />
     <None Include="Assets\DuckHunter-master\Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Bark_Array_301.shader" />
     <None Include="Assets\DuckHunter-master\Assets\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
     <None Include="Assets\DuckHunter-master\Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Billboard_301.shader" />

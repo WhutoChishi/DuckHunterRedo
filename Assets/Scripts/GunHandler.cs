@@ -31,7 +31,7 @@ public class GunHandler : MonoBehaviour
 
         {
 
-            Debug.Log(hit.transform.name);
+            
 
         }
 

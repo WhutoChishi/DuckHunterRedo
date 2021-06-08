@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{E8D00C65-D96A-9AD6-81C1-5DCA0FE63FBB}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GunHandler.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyHealth.cs">
     <Files>
-      <File FileName="Assets/Scripts/EnemyMovement.cs" Line="11" Column="5" />
-      <File FileName="Assets/Scripts/GunHandler.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/BulletSpawn.cs" Line="27" Column="22" />
+      <File FileName="Assets/Scripts/EnemyPooling.cs" Line="71" Column="14" />
+      <File FileName="Assets/Scripts/EnemyHealth.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e6288668-09b9-42b2-a1ea-eef3e8b1c607" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="edcbc7bf-251a-494a-a674-c3347a71ab4d" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
