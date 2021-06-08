@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class BulletSpawn : MonoBehaviour
 {
-    public GameObject Bulletobj;
+    //public GameObject Bulletobj;
 
     public float bulletspeed = 1.0f;
 
@@ -16,6 +16,10 @@ public class BulletSpawn : MonoBehaviour
     public float range = 100f;
 
     public Camera fpsCam;
+
+    public ParticleSystem muzzleFlash;
+
+    public GameObject impactEffect;
 
 
     // Start is called before the first frame update
@@ -41,6 +45,7 @@ public class BulletSpawn : MonoBehaviour
 
     void Shoot()
     {
+        muzzleFlash.Play();
 
         RaycastHit hit;
 
@@ -54,7 +59,7 @@ public class BulletSpawn : MonoBehaviour
                 enemy.TakeDamage(damage);
             }
 
-            Instantiate(Bulletobj, hit.point, Quaternion.LookRotation(hit.normal));
+            Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
         }
 
     }
